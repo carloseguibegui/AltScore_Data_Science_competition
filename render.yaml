@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: dashboard-costo-vida
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard.py --server.port 10000
+    plan: free
