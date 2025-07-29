@@ -28,3 +28,7 @@ streamlit run dashboard.py --server.port 10000
 ## Notas
 - Si usas archivos grandes o privados, considera variables de entorno o almacenamiento externo.
 - Puedes personalizar el nombre del servicio y el puerto en `render.yaml`.
+
+
+##URL API:
+https://altscore-data-science-competition.onrender.com/
